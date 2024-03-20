@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Seven</title>
+    <link rel="icon" href="seven.jpg" type="image/x-icon" />
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url("seveny.jpg") no-repeat center center fixed;
+        background-size: cover;
+      }
+
+      .inicio {
+        color: white;
+        font-family: "Segoe UI";
+        background: rgba(0, 0, 0, 0.5);
+        padding: 40px;
+        border-radius: 20px;
+        backdrop-filter: blur(8px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+        margin-left: 20px; /* Ajustado para mover 20px a la derecha desde la posición original */
+      }
+
+      .jose {
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid white;
+        color: white;
+        margin: 20px 0;
+        width: 100%;
+        box-sizing: border-box;
+      }
+
+      #b {
+        background: rgb(2, 0, 36);
+        color: white;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 20px;
+        margin-top: 20px;
+        cursor: pointer;
+        width: 50%;
+      }
+
+      label {
+        align-self: flex-start;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="inicio">
+      <h1 id="dd">Bienvenidos</h1>
+      <form action="index2.html" method="GET">
+        <label for="email">Correo Electrónico</label>
+        <input type="email" class="jose" required />
+        <label for="password">Contraseña</label>
+        <input type="password" class="jose" required />
+        <button type="submit" class="jose" id="b">Iniciar Sesión</button>
+      </form>
+    </div>
+  </body>
+</html>

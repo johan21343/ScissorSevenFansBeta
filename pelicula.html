@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scissor Seven Latino</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Pelicula Scissor Seven</title>
+    <link rel="icon" href="icon.jpg" type="image/x-icon" />
+    <style>
+      body {
+        font-family: "Segoe UI";
+      }
+      h1 {
+        font-size: 40px;
+        padding: 20px 0;
+        text-align: center;
+      }
+      nav {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        padding: 20px 0 10px;
+      }
+      a.nav-principal {
+        color: black;
+        text-decoration: none;
+        border: white solid;
+        padding: 5px;
+        border-radius: 20px;
+        font-family: "Segoe UI";
+      }
+      .fer {
+        background: rgba(0, 0, 0, 0.9);
+        color: white;
+      }
+      a.xdd {
+        color: white;
+      }
+
+      .informacion {
+        display: inline-block;
+        display: flex;
+        margin: 30px;
+        flex-direction: row;
+      }
+      .letra {
+        font-family: sans-serif;
+        font-size: x-large;
+      }
+      .img {
+        width: 200px;
+        margin: 10px;
+      } /* Estilos para tablets */ /* Estilos específicos para dispositivos móviles */
+      @media (min-width: 601px) and (max-width: 1024px) {
+        .informacion {
+          display: inline-block;
+          display: flex;
+          margin: 30px;
+          flex-direction: row;
+        }
+        .letra {
+          font-family: sans-serif;
+          font-size: large;
+        }
+        .img {
+          width: 200px;
+          margin: 10px;
+        }
+      }
+      @media (min-width: 1025px) {
+        nav {
+          justify-content: space-around;
+        }
+        .letra,
+        .img {
+          max-width: 50%;
+        }
+      }
+      @media (max-width: 600px) {
+        nav {
+          flex-direction: row;
+          flex-wrap: nowrap;
+          overflow-x: auto; /* Allows horizontal scrolling for nav items */
+        }
+        a.nav-principal {
+          margin: 5px; /* Adjusts margin for a tighter fit */
+          padding: 5px 8px; /* Slightly smaller padding for mobile */
+        }
+        .informacion {
+          display: inline-block;
+          display: flex;
+          margin: 30px;
+          flex-direction: row;
+        }
+        .letra {
+          font-family: sans-serif;
+          font-size: medium;
+        }
+        .img {
+          width: 200px;
+          margin: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="fer">
+        <h1>Scissor Seven Latino Fans</h1>
+        <nav>
+          <a class="nav-principal xdd" href="index2.html">Blog del Fandom</a>
+          <a class="nav-principal xdd" href="temporada5.html">Temporada 5</a>
+          <a class="nav-principal xdd" href="pelicula.html">Película</a>
+          <a class="nav-principal xdd" href="index.html">Iniciar Sesion</a>
+          <a class="nav-principal xdd" href="registrarse.html">Registrarse</a>
+          <a class="nav-principal xdd" href="Preguntas.html"
+            >Preguntas Frecuentes</a
+          >
+        </nav>
+      </div>
+      <div class="informacion">
+        <p class="letra">
+          Si bien, aunque ha habido muchos rumores sobre la película, lo poco si
+          no es que lo único que tenemos de información sobre ella es esta
+          escena al final de la 4.ª temporada donde nos mencionan que la
+          película ya viene, así que lo más seguro es que todavía esté siendo
+          rodada por lo pronto los mantendremos informados cada que haya nueva
+          información.
+        </p>
+        <img class="img" src="scissor.png" alt="Scissor Seven" />
+      </div>
+    </header>
+  </body>
+</html>
